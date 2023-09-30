@@ -1,4 +1,4 @@
-## CPSC535 Advance Algorithm
+## CPSC535 Advanced Algorithm - Project 1
 
 - Requirements
 ```
