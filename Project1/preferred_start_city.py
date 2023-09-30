@@ -47,12 +47,15 @@ class Solution:
         return -1
 
 if __name__ == '__main__':
+    solution = Solution()
     distance = [5, 25, 15, 10, 15]
     fuel = [1, 2, 1, 0, 3]
     mpg = 10
-    solution = Solution()
     result = solution.preferred_starting_city(distance, fuel, mpg)
-    print(f"Preferred starting city:{result}")
+    print(f'Distance:{distance}')
+    print(f'Fuel:{fuel}')
+    print(f'MPG: {mpg}')
+    print(f"Preferred starting city: {result}")
 
          
             

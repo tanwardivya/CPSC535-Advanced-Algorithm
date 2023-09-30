@@ -81,10 +81,12 @@ class Solution:
 if __name__ == '__main__':
     grid = [[0,1,1], [0,0,1], [1,1,0]]
     solution = Solution()
-    print(solution.find_max_area_island(grid))
-
+    print(f'Grid: {grid}')
+    print(f'Max area of island: {solution.find_max_area_island(grid)}')
+    print()
     grid = [[1,0,1,0,0],[0,0,1,1,0],[0,1,1,1,1],[1,0,1,0,0]]
-    print(solution.find_max_area_island(grid))
+    print(f'Grid: {grid}')
+    print(f'Max area of island: {solution.find_max_area_island(grid)}')
 
             
         
